@@ -6,6 +6,9 @@ import { TypeAnimation } from 'react-type-animation';
 const Homepage = () => {
 
   const[typingStatus,setTypingStatus] = useState("human1");
+
+  
+
   return (
     <div className="homepage">
       <img src="/orbital.png" alt="" className="orbital" />
@@ -13,8 +16,7 @@ const Homepage = () => {
         <h1>Alpha AI</h1>
         <h2>Make your ideas more valuable and meaningful</h2>
         <h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-          magni voluptates cum placeat
+          A PLACE WHERE MAGIC IS MAGIC AND TECHNOLOGY IS TECHNOLOGY. WE BELIEVE
         </h3>
         <Link to={"/dashboard"}>Get Started</Link>
       </div>
